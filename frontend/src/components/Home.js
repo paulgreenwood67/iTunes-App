@@ -82,7 +82,10 @@ export default function AppLayout() {
         .then((response) => response.json())
         .then((data) => setMediaInfo(data));
     }
-
+    const interval = setInterval(() => {
+      getApiData();
+    }, 1000);
+  }, []);
 
 // function to handle the amount selection
   const onAmountChange = (e) => {
