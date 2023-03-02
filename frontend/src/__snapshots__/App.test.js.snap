@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="display-card card"
+  style={
+    Object {
+      "marginBottom": "5px",
+      "width": "15rem",
+    }
+  }
+>
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+    />
+    <p
+      className="card-text"
+    />
+    <p
+      className="card-text"
+    >
+      Genre: 
+    </p>
+    <button
+      className="favorites-btn btn btn-primary"
+      disabled={false}
+      type="button"
+    >
+      Favourite
+    </button>
+  </div>
+</div>
+`;
