@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Favorites from "./Favorites";
 import Media from "./Media";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
-const elemenOne = <FontAwesomeIcon icon={faMagnifyingGlass} />;
 
 
 
